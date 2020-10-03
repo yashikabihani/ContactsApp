@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import LoginHooks from './components/LoginHooks';
-import LogoutHooks from './components/LogoutHooks';
+import GoogleBtn from './components/GoogleBtn';
 
 function App() {
   return (
     <div className="App">
-      <LoginHooks />
-      <LogoutHooks />
+      <GoogleBtn />
     </div>
   );
 }
